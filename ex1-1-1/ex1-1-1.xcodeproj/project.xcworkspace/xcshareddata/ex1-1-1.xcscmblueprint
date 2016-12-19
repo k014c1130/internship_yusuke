@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "12A6398D20880B2FAD0122E3A63650845FAA9AA2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "01D6FA2A4F1FC2798F523D7671E553BDC8A1F82D" : 0,
+    "12A6398D20880B2FAD0122E3A63650845FAA9AA2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "58188444-4E4C-43E5-B9D1-DA90A473FE11",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "01D6FA2A4F1FC2798F523D7671E553BDC8A1F82D" : "",
+    "12A6398D20880B2FAD0122E3A63650845FAA9AA2" : "internship_yusuke\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ex1-1-1",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ex1-1-1\/ex1-1-1.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/k014c1130\/internship_yusuke.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "01D6FA2A4F1FC2798F523D7671E553BDC8A1F82D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/k014c1130\/internship_yusuke.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "12A6398D20880B2FAD0122E3A63650845FAA9AA2"
+    }
+  ]
+}
