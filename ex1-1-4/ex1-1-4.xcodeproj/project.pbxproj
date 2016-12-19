@@ -15,6 +15,7 @@
 		7110264F1E07A708007A16DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7110264D1E07A708007A16DB /* LaunchScreen.storyboard */; };
 		7110265A1E07A708007A16DB /* ex1_1_4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 711026591E07A708007A16DB /* ex1_1_4Tests.m */; };
 		711026651E07A708007A16DB /* ex1_1_4UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 711026641E07A708007A16DB /* ex1_1_4UITests.m */; };
+		7110267A1E07BF55007A16DB /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 711026791E07BF55007A16DB /* Account.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		711026601E07A708007A16DB /* ex1-1-4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ex1-1-4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		711026641E07A708007A16DB /* ex1_1_4UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ex1_1_4UITests.m; sourceTree = "<group>"; };
 		711026661E07A708007A16DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		711026781E07BF55007A16DB /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		711026791E07BF55007A16DB /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				711026431E07A708007A16DB /* AppDelegate.m */,
 				711026451E07A708007A16DB /* ViewController.h */,
 				711026461E07A708007A16DB /* ViewController.m */,
+				711026781E07BF55007A16DB /* Account.h */,
+				711026791E07BF55007A16DB /* Account.m */,
 				711026481E07A708007A16DB /* Main.storyboard */,
 				7110264B1E07A708007A16DB /* Assets.xcassets */,
 				7110264D1E07A708007A16DB /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				711026471E07A708007A16DB /* ViewController.m in Sources */,
 				711026441E07A708007A16DB /* AppDelegate.m in Sources */,
+				7110267A1E07BF55007A16DB /* Account.m in Sources */,
 				711026411E07A708007A16DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
