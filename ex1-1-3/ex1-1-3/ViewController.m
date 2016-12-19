@@ -19,17 +19,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //分岐用変数
+    //分岐用の変数
     NSUInteger a = 1;
     
-    //高速列挙構文の配列
-    NSArray *ar = [NSArray arrayWithObjects:@"東京", @"名古屋", @"大阪", nil];
+    //高速列挙構文用の配列
+    NSArray *ar = @[@"東京", @"名古屋", @"大阪"];
   
 
     
     //if文
     if(a == 1){
-        NSLog(@"if文:a = 1 の場合(ここでa = 2に変更)");
+        NSLog(@"if文:a = 1 の場合(ここで「a = 2」に変更)");
         a = 2;
     }
     
@@ -56,7 +56,6 @@
     }
     
     //高速列挙構文
-    
     for(NSString *str in ar){
         NSLog(@"%@",str);
     }
