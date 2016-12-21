@@ -12,26 +12,6 @@
 @interface ViewController ()
 
 @end
-/*Accountクラスには、下記のプロパティとメソッドを定義する。
- 
- 【プロパティ】
- 氏名：文字列型
- 年齢：整数型
- 性別：文字列型
- 得意な言語：文字列型
- 
- 【メソッド】
- 男性の場合、「○○君は、○○が得意な○○歳です。」と表示する
- 女性の場合、「○○さんは、○○が得意な○○歳です。」と表示する。*/
-
-
-
-
-
-//表示メソッド
-
-
-#import "Account.h"
 
 @implementation ViewController
 
@@ -40,21 +20,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
-    /*身分の情報*/
-    NSArray <NSString*> *member_name = @[@"松本悠佑",@"山田",@"花子"];//名前
-    NSArray *member_age = @[@21,@30,@18];//歳
-    NSArray <NSString*> *member_gender = @[@"男",@"男",@"女"];//性別
-    NSArray <NSString*> *member_laungae= @[@"PHP",@"Java",@"C言語"];//得意な言語
-                                /*　　名前,歳,性別,得意な言語　　*/
+
+
     
     
-   /* for (<#type *object#> in <#collection#>) {
-        <#statements#>
-    }
-    */
+
     
-   
+        /*身分の情報*/
     Account *account0 = [[Account alloc]initWithName:@"松本悠佑"
                                                 age: 21
                                                 gender: @"男性"
