@@ -10,4 +10,15 @@
 
 @implementation FavoriteProgrammingLanguage
 
+-(void)joinInternship{
+    
+    if ([self.delegate respondsToSelector:@selector(learnedObjC)]) {
+        
+        NSLog(@"インターンに参加する");
+        [self.delegate learnedObjC];
+        
+    }
+    
+}
+
 @end

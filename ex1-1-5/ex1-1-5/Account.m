@@ -7,7 +7,26 @@
 //
 
 #import "Account.h"
+#import "FavoriteProgrammingLanguage.h"
 
-@implementation Account
+@interface Account() <FavoriteProgrammingLanguageDelegate>
 
 @end
+@implementation Account
+
+- (void)set{
+    FavoriteProgrammingLanguage* lang = [FavoriteProgrammingLanguage new];
+    
+    lang.delegate = self;
+    
+    [lang joinInternship];
+    
+}
+
+- (void)learnedObjC{
+    
+    NSLog(@"ObjeCができるようになりました。");
+    
+}
+@end
+

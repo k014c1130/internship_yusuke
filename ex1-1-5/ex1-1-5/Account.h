@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface Account : NSObject
 
+- (void)set;
+
+- (void)learnedObjC;
+
 @end
+

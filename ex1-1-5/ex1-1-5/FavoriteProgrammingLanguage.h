@@ -8,6 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FavoriteProgrammingLanguage : NSObject
+
+
+@protocol FavoriteProgrammingLanguageDelegate <NSObject>
+@optional
+-(void)learnedObjC;
 
 @end
+@interface FavoriteProgrammingLanguage : NSObject
+
+
+@property (nonatomic, weak) id<FavoriteProgrammingLanguageDelegate> delegate;
+
+- (void)joinInternship;
+
+@end
+
