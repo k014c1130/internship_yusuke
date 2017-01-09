@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Account.h"
 
 @interface ViewController ()
 
@@ -15,7 +16,10 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+
     [super viewDidLoad];
+    Account *intern = [Account new];    
+    [intern set];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
