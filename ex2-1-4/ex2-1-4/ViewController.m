@@ -20,38 +20,38 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
-   
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
+
 //アラート呼び出しボタン
 - (IBAction)alertButton:(id)sender {
     
-    UIAlertView *alert =
-    [[UIAlertView alloc] initWithTitle:@"確認"
-                        message:@"削除してもよろしいですか？"
-                        delegate:self
-                        cancelButtonTitle:@"いいえ"
-                        otherButtonTitles:@"はい", nil];
-    [alert show];
-   /*
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"アラート" message:@"インターン" preferredStyle:UIAlertControllerStyleAlert];
-    
-    [alert addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action){
-        NSLog(@"アラートOKボタン");
-    }]];
-    
-    [alert addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action){
-        NSLog(@"アラートCancelボタン");
-    }]];
 
+   //アラートの生成
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"アラート"
+                                message:@"インターン"
+                                preferredStyle:UIAlertControllerStyleAlert];
+  
+    //OKのボタン
+    [alert addAction:[UIAlertAction actionWithTitle:@"OK"
+                                              style:UIAlertActionStyleDefault
+                      //ボタン押下時の処理
+                      handler:^(UIAlertAction *action){NSLog(@"アラートOKボタン");}]];
     
-    [self presentViewController:alert animated:YES completion:nil];
-    */
+    //Cancelのボタン
+    [alert addAction:[UIAlertAction actionWithTitle:@"Cancel"
+                                              style:UIAlertActionStyleDefault
+                      //ボタン押下時の処理
+                                            handler:^(UIAlertAction *action){
+            NSLog(@"アラートCancelボタン");}]
+     ];
+
+    //アラート表示
+ [self presentViewController:alert animated:YES completion:nil];
+    
     
     
 }
